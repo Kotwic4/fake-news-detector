@@ -1,2 +1,6 @@
 vaderSentiment==3.2.1
 jupyter
+requests
+numpy
+matplotlib
+
