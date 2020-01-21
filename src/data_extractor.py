@@ -6,7 +6,7 @@ from datetime import datetime
 from random import shuffle
 import os
 
-PATH_TO_DATA_DIRECTORY = '/Users/grzegorz/Downloads/fakenewsnet_dataset/politifact'
+PATH_TO_DATA_DIRECTORY = './fakenewsnet_dataset/politifact'
 FAKE_ARTICLE_DIRECTORY = PATH_TO_DATA_DIRECTORY + '/fake'
 REAL_ARTICLE_DIRECTORY = PATH_TO_DATA_DIRECTORY + '/real'
 
