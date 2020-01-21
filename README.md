@@ -57,6 +57,9 @@ For full data one needs to use [script]https://github.com/KaiDMML/FakeNewsNet/bl
 
 If one wants to use just CSV data one download them from github, seperate for [fake](https://github.com/KaiDMML/FakeNewsNet/blob/master/dataset/politifact_fake.csv) and [real](https://github.com/KaiDMML/FakeNewsNet/blob/master/dataset/politifact_real.csv)
 
+For proper working of jupyter noteboks(without chaning paths in them) user needs to put:
+* CSV files into `fakenewsnet_dataset/dataset` folder
+* Full dataset into `fakenewsnet_dataset/politifact` with separation for fake and real folders
 
 Colab notebook have cell, which is downloading CSV file from github.
 
