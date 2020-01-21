@@ -4,3 +4,6 @@ requests
 numpy
 matplotlib
 pandas
+flair
+sklearn
+autokeras
