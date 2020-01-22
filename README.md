@@ -63,14 +63,14 @@ For proper working of jupyter noteboks(without chaning paths in them) user needs
 
 Colab notebook have cell, which is downloading CSV file from github.
 
-## Baza danych
-1. Wystartuj instancje bazy danych PostgreSQL. W zależności od potrzeb może ona być uruchomiona lokalnie bądź na zdalnym serwerze (w ramach tego projektu była urchamiania instancja bazy danych na AWS).
-2. Wykonaj polecenia SQL znajdujące się w pliku table_create.sql . Powinny zostać utworzone 3 tabele - dla artukułów, użytkowników oraz tweetów.
-3. Otwórz plik data_extractor.py
-4. Ustaw zmienną PATH_TO_DATA_DIRECTORY na folder wskazujący dane z portalu politifact (ścieżka powinna dokładnie wskazywać folder politifact!). Poradnik skąd pobrać dane znajdziesz w innym rozdziale tej instrukcji.
-5. Ustaw zmienną CONN zgodnie z informacjami o dostępie do bazy danych na której działasz (ustaw host, dbname, user oraz password)
-6. Uruchom skrypt
-7. W rezultacie wykonania skryptu dane powinny zostać w odpowiedni sposób wrzucone do bazy danych.
+## Database
+1. Start the PostgreSQL database instance. Depending on the needs, it can be run locally or on a remote server (under this project the database was running instance on AWS).
+2. Execute the SQL commands from the table_create.sql file. Three tables should be created - for articles, users and tweets.
+3. Open data_extractor.py
+4. Set the PATH_TO_DATA_DIRECTORY variable to the folder pointing to the data from the politifact portal (the path should point exactly to the politifact folder!). A guide on how to download the data can be found in another chapter of this manual.
+5. Set the CONN variable according to the information about access to the database you are running on (set host, dbname, user and password)
+6. Run script
+7. As a result of the script, the data should be properly uploaded to the database.
 
 ## References
 
